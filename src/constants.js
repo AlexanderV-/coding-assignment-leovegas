@@ -1,5 +1,5 @@
-export const API_KEY = '8cac6dec66e09ab439c081b251304443'
+export const API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0YzQ3ZWUwYWM4MzU3YTU0NmY0ZTg2NDcyNGI0NGQzNCIsIm5iZiI6MTcyMzMzOTMwNy45MDU1MzMsInN1YiI6IjY2YjgxMWE4N2RmMDM0YjljNDFhMTZlOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Hc4d07rSgmfEbyYOSQn4DDFvYEny_cZSC2zvBjVCnRE' //'8cac6dec66e09ab439c081b251304443'
 export const ENDPOINT = 'https://api.themoviedb.org/3'
-export const ENDPOINT_DISCOVER = ENDPOINT+'/discover/movie/?api_key='+API_KEY+'&sort_by=vote_count.desc'
-export const ENDPOINT_SEARCH = ENDPOINT+'/search/movie/?api_key='+API_KEY
+export const ENDPOINT_DISCOVER = ENDPOINT+'/discover/movie?include_adult=false&include_video=true&language=en-US&page=1&sort_by=popularity.desc'
+export const ENDPOINT_SEARCH = ENDPOINT+'/search/movie?query='
 export const ENDPOINT_MOVIE = ENDPOINT+'/movie/507086?api_key='+API_KEY+'&append_to_response=videos'

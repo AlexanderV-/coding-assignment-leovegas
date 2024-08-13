@@ -1,4 +1,4 @@
-import moviesSlice, { fetchMovies } from '../data/moviesSlice'
+import moviesSlice, { fetchMovies } from '../data/apiSlice'
 import { moviesMock } from './movies.mocks'
 
 describe('MovieSlice test', () => {
